@@ -1,8 +1,8 @@
-*{
+* {
     box-sizing: border-box;
 }
 
-a{
+a {
     display: block;
     text-decoration: none;
 }
@@ -57,7 +57,7 @@ img {
     margin-bottom: 20px;
 }
 
-.mb-m{
+.mb-m {
     margin-bottom: 30px;
 }
 
@@ -136,7 +136,8 @@ img {
 }
 
 .flex-products {
-    display: flex;justify-content: space-between;
+    display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
 }
 
@@ -163,16 +164,18 @@ img {
 .fa {
     position: absolute;
     top: 22px;
-    right: 22px;cursor: pointer;
+    right: 22px;
+    cursor: pointer;
 }
 
-.t-flex{
+.t-flex {
     display: flex;
     justify-content: space-between;
     width: 100%;
 }
 
-.pN, .pP {
+.pN,
+.pP {
     border: 1px solid #EAF0ED;
 
 
@@ -199,7 +202,8 @@ img {
 
 .page {
     display: inline-block;
-    height: 60px;width: 60px;
+    height: 60px;
+    width: 60px;
 }
 
 .pageL {
@@ -208,7 +212,6 @@ img {
     font: normal normal 300 20px/60px PingFang TC;
 }
 
-.pageL img{
+.pageL img {
     vertical-align: middle;
 }
-
