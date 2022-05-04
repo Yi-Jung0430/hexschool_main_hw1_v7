@@ -1,0 +1,214 @@
+*{
+    box-sizing: border-box;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+
+}
+
+.container {
+    max-width: 940px;
+    margin: 0 auto;
+}
+
+.primary {
+    color: #2C4832;
+}
+
+.bg-primary {
+    background-color: #2C4832;
+}
+
+.secondary {
+    color: #EAF0ED;
+}
+
+.bg-secondary {
+    background-color: #EAF0ED;
+}
+
+.border-secondary {
+    border: 1px solid #EAF0ED;
+
+}
+
+.bg-img {
+    background-position: 0 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.font-l {
+    font-size: 24px;
+}
+
+.mb-s {
+    margin-bottom: 20px;
+}
+
+.mb-m{
+    margin-bottom: 30px;
+}
+
+.mb-l {
+    margin-bottom: 60px;
+}
+
+.mt-m {
+    margin-top: 30px;
+}
+
+.mr-l {
+    margin-right: 60px;
+}
+
+.pt-s {
+    padding-top: 14px;
+}
+
+.pb-s {
+    padding-bottom: 14px;
+}
+
+.pt-m {
+    padding-top: 16px;
+}
+
+.pb-m {
+    padding-bottom: 16px;
+}
+
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+    width: auto;
+}
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font: normal normal 600 16px/73px PingFang TC;
+}
+
+.banner {
+    background-image: url(https://raw.githubusercontent.com/hexschool/webLayoutTraining1st/master/student-week1/banner.png);
+    height: 496px;
+    width: 100%;
+
+}
+
+.mainBlock {
+    display: flex;
+    justify-content: space-between;
+}
+
+.sideBar {
+    width: 32%;
+}
+
+.sideBar ul {
+    font: normal normal 600 24px/40px PingFang TC;
+}
+
+.products {
+    width: 65%;
+}
+
+.card {
+    width: 47.5%;
+}
+
+.flex-products {
+    display: flex;justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.productImg {
+    height: 315px;
+    position: relative;
+}
+
+.tag {
+    writing-mode: vertical-rl;
+    display: inline-block;
+    padding: 10px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font: normal normal 600 16px/20px PingFang TC;
+    letter-spacing: 3px;
+
+    position: absolute;
+    left: 20px;
+    top: 0;
+
+}
+
+.fa {
+    position: absolute;
+    top: 22px;
+    right: 22px;cursor: pointer;
+}
+
+.t-flex{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.pN, .pP {
+    border: 1px solid #EAF0ED;
+
+
+    display: inline-block;
+}
+
+.pN {
+    width: 60%;
+    font: normal normal 300 20px/20px PingFang TC;
+}
+
+.pP {
+    width: 40%;
+    font: normal normal 600 20px/24px PingFang TC;
+}
+
+.addCart {
+    font: normal normal 600 24px/20px PingFang TC;
+}
+
+.pages {
+    text-align: right;
+}
+
+.page {
+    display: inline-block;
+    height: 60px;width: 60px;
+}
+
+.pageL {
+    display: block;
+    text-align: center;
+    font: normal normal 300 20px/60px PingFang TC;
+}
+
+.pageL img{
+    vertical-align: middle;
+}
+
